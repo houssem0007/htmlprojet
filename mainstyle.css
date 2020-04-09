@@ -1,7 +1,10 @@
 nav{
-    width: 100%;
+    width: 98.6%;
     background-color: #3C5AEC;
     position: absolute;
+    top: 0em;
+    border-radius: 3px;
+    border: solid #3C5AEC;
 }
 nav ul{
     margin: 0px;
@@ -21,10 +24,15 @@ nav ul li{
 }
 .submenu{
     display: none;
+    background-color: cyan;
 }
 nav li:hover{
     background-color: #6CF079;
 }
+.bal{
+    background-color: cyan;
+}
+
 nav li:hover .submenu{
     display: inline-block;
     position: absolute;
@@ -34,8 +42,105 @@ nav li:hover .submenu{
 }
 .submenu li{
     border: 1px solid blue;
+    border-radius: 3px;
     padding: 15px 30px;
     font-size: 16px;
     width: 120px;
 }
-
+.submenu1{
+    display: none;
+}
+nav li ul :hover .submenu1{
+    display: inline-block;
+    position: absolute;
+    top: 0%;
+    left: 180px;
+    padding: 0px;
+}
+.submenu1 li{
+    border: 1px solid blue;
+    border-radius: 3px;
+    padding: 15px 30px;
+    font-size: 16px;
+    width: 120px;
+}
+nav li.bal:hover{
+    background-color: crimson;
+}
+a:hover{
+    color: orangered;
+    font-size: 1.1em;
+}
+a:visited{
+    color: grey;
+}
+a{
+    text-decoration: none;
+}
+.mainimage{
+    width: 450px;
+    height: 550px;
+    border-radius: 3px;
+    margin: 10px 20px 10px 20px;
+    border: solid blue;
+}
+header{
+    margin-top: 65px; 
+    display: flex;
+    background-color: #FF9E9E;
+    border-style: double;
+    border-radius: 6px;
+}
+header h1{
+    font-style: oblique;
+    font-size: 3.5em;
+    color: crimson;
+    margin-right: -20px;
+    text-align: center;
+    margin-left: 170px;
+}
+header h2{
+    margin-top: 100px;
+    text-align: center;
+    font-style: oblique;
+    font-family: monospace;
+}
+section{
+    width: 100%;
+    display: flex;
+    margin-top: 30px;
+}
+section img{
+    width: 400px;
+    height: 550px;
+    margin-top: 9px;
+    margin-left: 30px;
+    border-radius: 3px;
+    border: 3px darkcyan solid;
+}
+section p{
+    width: 95%;
+    margin-left: 30px;
+    margin-top: 10px;
+    margin-right: 30px;
+    font-size: 1.05em;
+    margin-bottom: 35px;
+}
+#smallparagraphe{
+    border: 3px solid darkcyan;
+    border-radius: 5px;
+    padding: 8px 10px 8px 10px;
+    background-color: #9BA3F0;
+}
+#boxparagraphe{
+    padding: 8px 12px 8px 12px;
+    height: 337px;
+    text-align: justify;
+    border: 3px solid darkcyan;
+    border-radius: 5px;
+    overflow: auto;
+    background-color: #9BA3F0;
+}
+.bigdiv{
+    background-color: #B6BEFF;
+}
